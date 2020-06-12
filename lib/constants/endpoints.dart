@@ -17,4 +17,7 @@ abstract class Endpoints {
   static const String getWeekStats = "$fogosBaseApi/v1/stats/week";
   static const String getLastHoursStats = "$fogosBaseApi/v1/now/data";
   static const String getMobileContributors = "https://fogos.pt/v1/mobile-contributors";
+  static const String riskToday = "$fogosBaseApi/v1/risk-today";
+  static const String riskTomorrow = "$fogosBaseApi/v1/risk-tomorrow";
+  static const String riskDayAfter = "$fogosBaseApi/v1/risk-after";
 }
